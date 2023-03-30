@@ -8,7 +8,7 @@ _How to add CSS in Html_
 
 - we can add internal css inside our html document using style tag.
 
-**Inline CSS\* **
+**Inline CSS**
 
 - we can add style in our html document using style attribute in the tag you want to style.
 

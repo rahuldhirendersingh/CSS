@@ -1,4 +1,4 @@
-# CSS
+# Cascading Style Sheets
 
 ![CSS](https://f9s9t9d6.rocketcdn.me/wp-content/uploads/2020/04/Artboard-11-1024x724.png)
 

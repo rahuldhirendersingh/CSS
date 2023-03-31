@@ -1,0 +1,41 @@
+/* element selector */
+
+body {
+  font-size: 24px;
+}
+
+p {
+  color: red;
+}
+
+/* id selector */
+
+#second {
+  color: aqua;
+}
+
+/* class selector */
+
+.color {
+  color: blue;
+}
+
+/* class selector for specific element */
+
+p.center {
+  text-align: center;
+  color: blue;
+}
+
+/* group selector */
+
+h1,
+h2 {
+  color: limegreen;
+}
+
+/* universal selector */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}

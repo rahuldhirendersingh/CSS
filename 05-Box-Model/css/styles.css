@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* border */
+
+.container {
+  border: 5px solid gold;
+}
+
+.container {
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+  border-left: 6px dotted darkgoldenrod;
+  border-right: 6px dotted hotpink;
+}
+
+.container {
+  border-top-color: peachpuff;
+  border-bottom-width: 10px;
+  border-right-style: double;
+  border-right-width: 10px;
+}
+
+/* padding */
+
+.container {
+  padding: 3rem;
+}
+
+.container {
+  padding: 1em 2em;
+}
+
+.container {
+  padding: 1.5rem 2rem 1.5em 2em;
+}
+
+.container {
+  padding-top: 1em;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 2em;
+}
+
+/* margin */
+
+.container {
+  margin: 2rem;
+}
+
+.container {
+  margin: 1em 1em;
+}
+
+.container {
+  margin: 1em 2rem 1em 2rem;
+}
+
+.container {
+  margin-top: 2rem;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+/* outline */
+
+.container {
+  outline: 5px solid palevioletred;
+  outline-offset: 10px;
+}
+
+/* turn a square into circle */
+
+.square-to-circle {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  margin: 2rem auto;
+  border: dotted tomato;
+  outline: 3px solid aqua;
+  outline-offset: -15px;
+  border-radius: 50%;
+}
+
+/* some extra code: not part of this tutorial */
+
+.square-to-circle:hover {
+  background-color: brown;
+  cursor: pointer;
+  outline-color: white;
+  transition: 0.5s;
+}

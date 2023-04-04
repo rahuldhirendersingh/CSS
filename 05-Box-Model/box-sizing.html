@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>05 - Box Model</title>
+
+    <style>
+      .heading {
+        /* content-box : the content width should be 150px so the total box width will be larger than 150px */
+        box-sizing: content-box;
+      }
+
+      .heading {
+        /* border-box : the total box width should be 150px */
+        box-sizing: border-box;
+      }
+
+      .heading {
+        border: 5px solid;
+        padding: 2em;
+        margin: 1em 1.5rem;
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 class="heading">this is a heading</h3>
+  </body>
+</html>

@@ -8,12 +8,12 @@
 
     <style>
       .heading {
-        /* content-box : the content width should be 150px so the total box width will be larger than 150px */
+        /* content-box : if you set the width and height to 100px the actual width and height of the box will be different as it will include margin, padding and border later on top of the size you set. */
         box-sizing: content-box;
       }
 
       .heading {
-        /* border-box : the total box width should be 150px */
+        /* border-box : if you set the width and height to 100px the actual width and height of the box will be 100px as other factors like margin, padding and border is included in this */
         box-sizing: border-box;
       }
 

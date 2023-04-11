@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 2rem;
+}
+
+/* absolute units */
+
+.top {
+  text-align: center;
+  font-size: 2cm;
+  font-size: 2in;
+  font-size: 28px;
+  font-size: 15mm;
+  font-size: 60pt;
+  font-size: 10pc;
+}
+
+/* relative units */
+
+.content {
+  border: 0.6em solid;
+  padding: 8%;
+  font-size: 1.5rem;
+  margin-left: 7vw;
+  margin-top: 10vh;
+}
